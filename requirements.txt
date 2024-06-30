@@ -4,5 +4,5 @@ numpy==1.21.2
 git add .
 git commit -m
 git push origin main
-pip install -r requirements.txt
+install -r requirements.txt
 
