@@ -19,7 +19,7 @@ def is_government_website(url):
 def is_spam_message(message):
     # Define spam detection criteria (example)
     spam_keywords = [
-        "lottery", "free", "money", "prize", "dollars","click here", "urgent"," job openings","contests ","promotional content"
+        "lottery", "free", "money", "prize", "Work-from-Home Scams","Health and Medical Scams","Charity Scams","Online Dating Scams","Tech Support Scam","Investment Scams","Business Opportunity Scams","Fake Invoice Scams","Pump and Dump","Subscription Scams","dollars","click here", "urgent"," job openings","contests ","promotional content"
         # Add more spam keywords as needed
     ]
     
