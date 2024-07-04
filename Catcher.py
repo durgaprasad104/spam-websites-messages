@@ -76,7 +76,7 @@ def is_government_authorized_email(email):
         domain = parts[1]
         # Check if the domain ends with any of the authorized government domains
         for auth_domain in authorized_domains:
-            if domain.lower().endswith(auth_domain):
+            if auth_domain in domain.lower():
                 return True
     return False
 
