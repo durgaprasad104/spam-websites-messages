@@ -5,7 +5,7 @@ import re
 def is_government_website(url):
     # Define a list of government domains
     government_domains = [
-        '.nic.in','.aai.aero','.gov', '.gov.in','gov.in', '.gov.uk', '.gov.au', '.gov.ca', '.gov.nz', '.gov.za','.co.in','edu.in','.org.in','ac.in','.net.in','.gen.in'
+        '.nic.in','.edu','.aai.aero','.gov', '.gov.in','gov.in', '.gov.uk', '.gov.au', '.gov.ca', '.gov.nz', '.gov.za','.co.in','edu.in','.org.in','ac.in','.net.in','.gen.in'
         # Add other government domains as needed
     ]
     
@@ -19,7 +19,7 @@ def is_government_website(url):
 def is_spam_message(message):
     # Define spam detection criteria (example)
     spam_keywords = [
-        "lottery", "free", "money", "prize", "click here", "urgent"," job openings","contests ","promotional content"
+        "lottery", "free", "money", "prize", "dollars","click here", "urgent"," job openings","contests ","promotional content"
         # Add more spam keywords as needed
     ]
     
@@ -65,8 +65,8 @@ def is_authorized_brand_number(number):
 def is_government_authorized_email(email):
     # Define authorized government domains
     authorized_domains = [
-        ".gov","@aai.aero", ".gov.in","gov.in", ".gov.uk", ".gov.au", ".gov.ca", ".gov.nz", ".gov.za",
-        ".co.in", ".edu.in", ".org.in", ".ac.in", ".net.in", ".gen.in","nic.in",".nic.in"
+        ".gov","@aai.aero", ".aai.aero",".gov.in","gov.in", ".gov.uk", ".gov.au", ".gov.ca", ".gov.nz", ".gov.za",
+        ".co.in", ".edu.in",".edu", ".org.in", ".ac.in", ".net.in", ".gen.in","nic.in",".nic.in"
         # Add more authorized domains as needed
     ]
     
