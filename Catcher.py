@@ -5,7 +5,7 @@ import re
 def is_government_website(url):
     # Define a list of government domains
     government_domains = [
-        '.nic.in','.gov', '.gov.in','gov.in', '.gov.uk', '.gov.au', '.gov.ca', '.gov.nz', '.gov.za','.co.in','edu.in','.org.in','ac.in','.net.in','.gen.in'
+        '.nic.in','aai.aero','.gov', '.gov.in','gov.in', '.gov.uk', '.gov.au', '.gov.ca', '.gov.nz', '.gov.za','.co.in','edu.in','.org.in','ac.in','.net.in','.gen.in'
         # Add other government domains as needed
     ]
     
